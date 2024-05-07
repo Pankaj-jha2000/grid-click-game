@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#grid {
+    display: inline-block;
+    margin: 20px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+}
